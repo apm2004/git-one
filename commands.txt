@@ -1,0 +1,30 @@
+git --version  #check version
+git config --global user.name <username> #set username
+git config --global user.email <email> #set email
+git config user.name #check username
+
+#go inside project folder
+git init #creates git file
+
+#green color -> git is tracking the file and it is not committed + its a new file
+#orange color -> git is tracking the file and it is not committed + its an existing file
+
+git status #shows modified file and files in staging area
+git add <modified_file> #add file into staging area
+git add . #add all modified files to staging area
+git rm --cached <staged_file> #removes file from staging area
+
+git commit -m "<message>" #making commit
+
+git log #shows commit history and commit id
+git log --oneline #shows commit history and commit id in simplified manner
+
+git checkout <commit id> #displays read only version of commit id
+git checkout master #goes back to present
+
+git revert <commit id> #new commit which undoes the specified commit 
+#this opens a text editor
+# :wq should be entered at the bottom to close it
+
+git reset <commit id> #resets all the commit after the specified commit but locally saved
+git reset <commit id> --hard #resets and deletes files permanently
