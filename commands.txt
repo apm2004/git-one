@@ -40,4 +40,4 @@ git merge <branch_name> #to merge a branch from location to be merged into
 
 git push <url> <branch> #to push code from local repo to remote repo
 
-git remote add <alias> <url> #to give an alias to the url of remote repo
+git remote add <alias> <url> #to give an alias(deafult : origin) to the url of remote repo
