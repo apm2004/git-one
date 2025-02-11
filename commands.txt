@@ -32,8 +32,9 @@ git reset <commit id> --hard #resets and deletes files permanently
 git branch <branch_name> #creating branch
 git branch -a #shows all existing branches
 git checkout <branch_name> #switch to specified branch
+git checkout -b <branch_name> #creates and switches to new branch in single step
 
 git branch -D <branch_name> #to delete a branch from master
 
-git checkout -b <branch_name> #creates and switches to new branch in single step
+
 
