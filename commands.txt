@@ -41,3 +41,18 @@ git merge <branch_name> #to merge a branch from location to be merged into
 git push <url> <branch> #to push code from local repo to remote repo
 
 git remote add <alias> <url> #to give an alias(deafult : origin) to the url of remote repo
+
+git clone <url> #to clone remote repo into local repo
+
+git pull <alias> <branch> #to fetch all the remote repo code and merge with local repo code
+
+#Workflow
+git pull origin master
+create,edit,update,....
+git add .
+git commit
+git push origin branch(not master)
+compare & pull request in GitHub
+create pull request in GitHub
+wait for review
+merge pull requests
